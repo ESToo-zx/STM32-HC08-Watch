@@ -1,0 +1,39 @@
+# Keil build output; keep vendor prebuilt libraries and source configuration.
+**/Objects/
+**/Listings/
+firmware/HAL/MDK-ARM/STM32Watch_HAL/
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+*.iex
+*.build_log.htm
+
+# Local Keil options, GUI state and debugger cache.
+*.uvguix.*
+*.uvoptx
+*.dbgconf
+**/DebugConfig/
+
+# Local editor and agent settings.
+.vscode/
+.idea/
+.vs/
+.claude/
+.codex/
+.agents/
+
+# Temporary and OS files.
+__pycache__/
+*.pyc
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
